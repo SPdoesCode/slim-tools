@@ -19,6 +19,9 @@ SUBDIRS = \
 	cp \
 	csplit \
 	cut \
+	vdir \
+	stdbuf \
+	shred \
 	date \
 	dd \
 	df \
