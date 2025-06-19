@@ -12,6 +12,7 @@
 #define MODE_RWX (S_IRUSR | S_IWUSR | S_IXUSR | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH)
 
 void usage() {
+    printf("install from SlimTools\n");
     fprintf(stderr, "Usage: install [-m MODE] [-o OWNER] [-g GROUP] SOURCE DEST\n");
     exit(1);
 }
