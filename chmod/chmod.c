@@ -62,6 +62,7 @@ void apply_symbolic_mode(const char *mode, struct stat *file_stat) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
+        printf("chmod from SlimTools\n");
         printf("Usage: chmod MODE FILE...\n");
         printf("MODE can be an octal number (e.g., 755) or a symbolic mode (e.g., u+x)\n");
         return 1;
