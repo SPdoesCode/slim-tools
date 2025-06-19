@@ -44,6 +44,7 @@ void print_groups(const char *username) {
 
 int main(int argc, char **argv) {
     if (argc > 2) {
+        fprintf(stderr, "groups from SlimTools\n");
         fprintf(stderr, "Usage: groups [USERNAME]\n");
         return 1;
     }
