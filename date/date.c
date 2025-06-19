@@ -25,6 +25,7 @@ void display_date(const char *format) {
 
 int main(int argc, char **argv) {
     if (argc > 2) {
+        printf("date from SlimTools\n");
         printf("Usage: date [FORMAT]\n");
         printf("Display the current date and time.\n");
         printf("If FORMAT is provided, use it to format the output.\n");
