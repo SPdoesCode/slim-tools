@@ -3,6 +3,7 @@
 #include <string.h>
 
 void usage() {
+    fprintf(stderr, "yes from SlimTools\n");
     fprintf(stderr, "Usage: yes [STRING]...\n");
     fprintf(stderr, "Repeatedly output STRING or 'y' if no arguments are provided.\n");
     exit(1);
