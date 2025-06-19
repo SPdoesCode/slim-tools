@@ -126,7 +126,7 @@ int copy_directory(const char *src, const char *dest) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
-                printf("chgrp from SlimTools\n");
+                printf("cp from SlimTools\n");
         printf("Usage: cp SOURCE DEST\n");
         printf("       cp -r SOURCE_DIR DEST_DIR\n");
         return 1;
