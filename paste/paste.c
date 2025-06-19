@@ -6,6 +6,7 @@
 #define MAX_LINE_LENGTH 4096
 
 void usage() {
+    fprintf(stderr, "paste from SlimTools\n");
     fprintf(stderr, "Usage: paste [-d DELIM] FILE...\n");
     exit(1);
 }
