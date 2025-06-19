@@ -44,6 +44,7 @@ void dirname(const char *path) {
 
 int main(int argc, char **argv) {
     if (argc != 2) {
+        fprintf(stderr, "dirname from SlimTools\n");
         fprintf(stderr, "Usage: dirname PATH\n");
         return 1;
     }
