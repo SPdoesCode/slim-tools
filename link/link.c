@@ -4,6 +4,7 @@
 #include <errno.h>
 
 void usage() {
+    printf("link from SlimTools\n");
     fprintf(stderr, "Usage: link TARGET LINK_NAME\n");
     exit(1);
 }
