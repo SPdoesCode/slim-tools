@@ -68,6 +68,7 @@ int main(int argc, char **argv) {
                 delimiter = optarg[0];
                 break;
             default:
+                printf("join from SlimTools\n");
                 fprintf(stderr, "Usage: join [-1 FIELD] [-2 FIELD] [-t DELIM] FILE1 FILE2\n");
                 return 1;
         }
