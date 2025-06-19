@@ -76,6 +76,7 @@ void extract_fields(const char *input, const char *fields_arg, char delimiter) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
+        printf("cut from SlimTools\n");
         printf("Usage: cut [OPTIONS]... [FILE]...\n");
         printf("Extract sections from each line of files.\n");
         printf("Options:\n");
