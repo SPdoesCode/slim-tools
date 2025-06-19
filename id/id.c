@@ -74,6 +74,7 @@ void print_id(const char *username) {
 
 int main(int argc, char **argv) {
     if (argc > 2) {
+        printf("id from SlimTools\n");
         fprintf(stderr, "Usage: id [USERNAME]\n");
         return 1;
     }
