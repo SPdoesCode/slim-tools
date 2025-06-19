@@ -8,6 +8,7 @@
 
 int main(int argc, char **argv) {
     if (argc < 3) {
+        printf("chgrp from SlimTools\n");
         printf("Usage: chown [OWNER][:[GROUP]] FILE...\n");
         printf("OWNER and GROUP can be names or numeric IDs\n");
         return 1;
