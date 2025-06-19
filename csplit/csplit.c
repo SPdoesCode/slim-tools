@@ -59,6 +59,7 @@ void csplit(const char *filename, const char *pattern, int repeat) {
 
 int main(int argc, char **argv) {
     if (argc < 3) {
+        printf("csplit from SlimTools\n");
         printf("Usage: csplit FILE PATTERN\n");
         printf("Splits FILE into sections based on PATTERN.\n");
         return 1;
