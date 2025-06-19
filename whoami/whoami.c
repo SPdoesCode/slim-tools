@@ -4,6 +4,7 @@
 #include <pwd.h>
 
 void usage() {
+    fprintf(stderr, "whoami from SlimTools\n");
     fprintf(stderr, "Usage: whoami\n");
     fprintf(stderr, "Display the username of the current user.\n");
     exit(1);
